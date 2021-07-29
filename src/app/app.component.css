@@ -1,0 +1,46 @@
+.col {
+  float: left;
+  padding: 10px;
+}
+
+.div-1 {
+  background-color: #0936a8;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.div-2 {
+  background-color: #abbaea;
+}
+
+/* .container {
+  display: grid; 
+  grid-template-columns: 0.7fr 1fr 1.3fr; 
+  grid-template-rows: 0.4fr 0.3fr 2.3fr; 
+  gap: 0px 0px; 
+}
+.first { grid-area: 1 / 1 / 2 / 2; }
+.First { grid-area: 1 / 1 / 3 / 2; }
+.Second { grid-area: 1 / 2 / 2 / 3; }
+.Third { grid-area: 2 / 2 / 3 / 3; }
+.second { grid-area: 1 / 2 / 2 / 4; }
+.third { grid-area: 2 / 2 / 4 / 4; } */
